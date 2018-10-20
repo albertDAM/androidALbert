@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">albertDAM</string>
+    <string name="titol">Principal Activity</string>
+    <string name="contingut">Enter your username and password to enter the application. If you do not have one, click the register button</string>
+    <string name="titol2">Register Activity</string>
+    <string name="contingut2">Enter the username you want, as well as your contact information. The phone must have at least 9 digits</string>
+    <string name="usuari">User</string>
+    <string name="correu">Mail</string>
+    <string name="telefon">Phone</string>
+    <string name="password">Password</string>
+    <string name="password2">Paswword(Repeat)</string>
+    <string name="sexe">Sex</string>
+    <string name="help">Help</string>
+    <string name="new_user">New User</string>
+    <string name="enter">Enter</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="create">Create</string>
+
+
+</resources>

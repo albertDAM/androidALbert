@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">albertDAM</string>
+    <string name="titol">Activitat Principal</string>
+    <string name="contingut">Introdueix el teu nom de usuari i password per entrar a la aplicació. En cas de no disposar-ne de un, fes click en el botó registra</string>
+    <string name="titol2">Activitat Registra</string>
+    <string name="contingut2">Introdueix el nom de usuari que desitges, aixi com les teves dades de contacte. El telefon ha de tenir 9 xifres com a minim</string>
+    <string name="usuari">Usuari</string>
+    <string name="correu">Correu</string>
+    <string name="telefon">Telèfon</string>
+    <string name="password">Password</string>
+    <string name="password2">Paswword(Repeteix)</string>
+    <string name="sexe">Sexe</string>
+    <string name="help">Ajuda</string>
+    <string name="new_user">Nou Usuari</string>
+    <string name="enter">Entrar</string>
+    <string name="male">Home</string>
+    <string name="female">Dona</string>
+    <string name="create">Crear</string>
+
+
+</resources>

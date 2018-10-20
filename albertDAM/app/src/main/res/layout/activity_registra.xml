@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registra">
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/usuari"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/correu"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/telefon"
+        android:inputType="phone"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="@string/password2"
+        android:inputType="textPassword"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669" />
+
+    <CheckBox
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/male"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass2"
+        app:layout_constraintVertical_bias="0.3"
+        tools:text="Home" />
+
+    <CheckBox
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="@string/female"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toEndOf="@+id/male"
+        app:layout_constraintTop_toBottomOf="@+id/pass2"
+        app:layout_constraintVertical_bias="0.302"
+        tools:text="Dona" />
+
+    <TextView
+        android:id="@+id/sex"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:text="@string/sexe"
+        app:layout_constraintBottom_toTopOf="@+id/female"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass2"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <Button
+        android:id="@+id/ajuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ajuda"
+        android:text="@string/help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/female"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <Button
+        android:id="@+id/crea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="crear"
+        android:text="@string/create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/ajuda"
+        app:layout_constraintTop_toBottomOf="@+id/pass2"
+        app:layout_constraintVertical_bias="0.846" />
+
+</android.support.constraint.ConstraintLayout>
